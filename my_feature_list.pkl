@@ -1,0 +1,16 @@
+(lp0
+S'poi'
+p1
+aS'exercised_stock_options'
+p2
+aS'total_stock_value'
+p3
+aS'sent_to_poi_ratio'
+p4
+aS'restricted_stock'
+p5
+aS'shared_with_poi_ratio'
+p6
+aS'total_payments'
+p7
+a.
