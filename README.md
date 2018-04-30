@@ -296,10 +296,10 @@ RandomForestClassifier(bootstrap=True, class_weight='balanced',
 对于我的最终模型`SVC`，主要参数设置如下
 
 ```
-{  # DecisionTreeClassifier
+{  # RandomForestClassifier
+        'n_estimators' : [2,3,4,5,6,7,8],
         'criterion' : ('gini', 'entropy'),
-        'splitter' : ('best', 'random'),
-        'min_samples_split' : [7, 8, 9, 10, 11, 12, 13]
+        'min_samples_split' : [25,30,35,40,45,50,55]
     }
 
 ```
