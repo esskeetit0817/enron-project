@@ -293,7 +293,7 @@ RandomForestClassifier(bootstrap=True, class_weight='balanced',
 
 大多数机器学习算法需要在学习之前设置参数。通常没有客观的方式设置这些参数，但它们影响算法的性能。参数调整是找到给定训练集的最优参数集合的过程，希望这将对测试数据产生更好的预测结果。最佳参数取决于应用机器学习算法的数据，通常是通过交叉验证来找到它们。最佳参数意味着给定机器学习算法，模型的预测能力最大化。
 
-对于我的最终模型`SVC`，主要参数设置如下
+对于我的最终模型`RandomForestClassifier`，主要参数设置如下
 
 ```
 {  # RandomForestClassifier
